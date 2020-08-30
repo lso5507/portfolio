@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>fullPage.js - Pure Javascript version</title>
+
+
+	<link rel="stylesheet" type="text/css" href="./resources/javascript.fullPage.css" />
+
+	<link rel="stylesheet" type="text/css" href="./resources/index.css" />
+	<link rel="stylesheet" type="text/css" href="./resources/main.css" />
+
+</head>
+<body>
+
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="content" style="top:50%; ">
+			<h1>PORTFOLIO</h1>
+			
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<div class="myPT">
+			<div class="imageZone">
+			  
+			  <img src="./image/Lee.jpg"></img>
+			  <div class="skil">
+				<p>keyword :</p><p>#성실함 #경청 #의사소통</p>
+
+			  </div>
+			</div>
+			<div class="record">
+			  <span>Education</span>
+			  <p>2015.02 군포 E 비즈니스 디지털 콘텐츠과 졸업</p>
+			  <p>2021.03 대림대학교 컴퓨터 소프트웨어 졸업예정</p>
+			  <span>Certification</span>
+			  <p>2014.07.03 정보처리 기능사 취득</p>
+			  <p>(?) 전산회계 취득</p>
+			  <span>Project</span>
+			  <p>hobbyWeb Project</p>
+			  <p>Cherry Blossom Reminder</p>
+			  <p>React movie</p>
+			  <span>
+				SKIl
+			  </span>
+			  <p>Java/SpringFramework  Python  kotlin  C#</p>
+			  <p>html5  sass  js  react </p>
+			  <p>MYSql</p>
+			</div>  
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="slide" id="slide1">
+
+			<div class="content" style="top:50%">
+
+				<h1 style="color:#6DB33F">HobbyWebSite</h1>
+			</div>
+		</div>
+		<div class="slide" id="slide2">
+
+			
+			<div class="content container">
+				<div class="title-text">
+					<h2>Content</h2>
+				</div>
+				<div>
+					<img src="image/hobby.gif" style="width:50vw">
+				</div>
+				<div>
+					<span>Java / SpringFrameWork 구현</span>
+					<span>Jdbc Template 이용하여 DB구현</span>
+					<span>게시글 작성 및 댓글 구현</span>
+					<span>회원정보 관리 구현</span>
+				</div>
+			</div>
+		</div>
+		<div class="slide" id="slide3">
+
+			<div class="content container">
+				<div class="title-text">
+					<h2>웹 구성도</h2>
+				</div>
+				<img src="image/Webflow.PNG">
+				
+			</div>
+		</div>
+		<div class="slide" id="slide4">
+
+			
+			<div class="content container">
+				<div class="title-text">
+					<h2>DB 구성도</h2>
+				</div>
+				<img src="image/DBTABLE.png">
+				
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="section" id="section3">
+		<div class="slide" id="slide1">
+			<div class="title-text">
+				<h2>Project</h2>
+			</div>
+			<div class="content" style="top:50%">
+
+				<h1 style="color:#3DDB85">Cherry Blossom Reminder</h1>
+			</div>
+		</div>
+		<div class="slide" id="slide2">
+
+			
+			<div class="content container">
+				<div class="title-text">
+					<h2>Content</h2>
+				</div>
+				<div>
+					<img src="image/android.gif" style="width:20vw">
+				</div>
+				<div>
+					<span>개발언어 : Kotlin</span>
+					<span>벚꽃 아이콘 클릭시 개화시기 표시 (Tooltip사용)</span>
+					<span>텍스트 클릭시 해당 지역 리스트뷰 표시</span>
+					<span>리스트뷰 클릭시 해당 정보 검색 연결</span>
+					<span>Google PlayStore 등록</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section4">
+		<div class="slide" id="slide1">
+			<div class="title-text">
+				<h2>Project</h2>
+			</div>
+			<div class="content" style="top:50%">
+
+				<h1 style="color:#61DAFB">React Movie</h1>
+			</div>
+		</div>
+		<div class="slide" id="slide2">
+
+			
+			<div class="content container">
+				<div class="title-text">
+					<h2>Content</h2>
+				</div>
+				<div>
+					<img src="image/react_moive.PNG" style="width:50vw">
+				</div>
+				<div>
+					<span>개발언어 : React</span>
+					<span>Axios 이용하여 영화정보 Json 파싱</span>
+					<span>이미지 클릭시 Detail정보 표현</span>
+					
+				</div>
+			</div>
+		</div>
+		<div class="slide" id="slide3">
+
+			<div class="content container">
+				<div class="title-text">
+					<h2>Detail</h2>
+				</div>
+				<img src="image/react_moive_detail.PNG" style="width:70vw">
+				
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<script type="text/javascript" src="./components/javascript.fullPage.js"></script>
+<script type="text/javascript">
+	fullpage.initialize('#fullpage', {
+		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+		menu: '#menu',
+		css3:true
+	});
+
+</script>
+
+</body>
+</html>

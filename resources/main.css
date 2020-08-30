@@ -1,0 +1,80 @@
+@font-face {
+    font-family: MyKo;
+    src: url('../font/YeonSung-Regular.ttf');
+  }
+  
+
+body{
+    font-family: MyKo;
+}
+.myPT{
+    display:flex;
+    flex-direction: row;
+    width:100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.imageZone{
+    margin-right:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+
+}
+.imageZone img{
+    width:250px;
+    height: auto;
+    padding-bottom: 10px;
+}
+.skil p{
+    display: inline;
+    font-size:25px
+}
+.skil p:nth-child(1){
+    font-weight: bold;
+
+
+}
+
+.record p{
+    margin:0px;
+    padding-left:25px;
+    line-height: 50px;
+    font-size:23px;
+}
+.record span{
+    font-weight: bold;
+    font-size:30px;
+    margin-top:25px;
+}
+.imageZone .imageTitle{
+    font-size:40px;
+    font-weight: bold;
+    padding-bottom: 100px;
+  }
+.title-text{
+    position: absolute;
+    transform: translateY(-400px);
+    left:100px;
+    color:black;
+    font-size:10px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    
+    height: auto;
+}
+.container span{
+    display:block;
+    font-size:25px;
+    line-height: 50px;
+    text-align: left;
+    padding-left:50px
+}

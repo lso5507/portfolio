@@ -1,0 +1,131 @@
+		/* Reset CSS
+		 * --------------------------------------- */
+         body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+         form,fieldset,input,textarea,p,blockquote,th,td {
+             padding: 0;
+             margin: 0;
+         }
+         a{
+             text-decoration:none;
+         }
+         table {
+             border-spacing: 0;
+         }
+         fieldset,img {
+             border: 0;
+         }
+         address,caption,cite,code,dfn,em,strong,th,var {
+             font-weight: normal;
+             font-style: normal;
+         }
+         strong{
+             font-weight: bold;
+         }
+         ol,ul {
+             list-style: none;
+             margin:0;
+             padding:0;
+         }
+         caption,th {
+             text-align: left;
+ 
+         }
+         h1,h2,h3,h4,h5,h6 {
+             font-weight: normal;
+             font-size: 100%;
+             margin:0;
+             padding:0;
+             
+         }
+         q:before,q:after {
+             content:'';
+         }
+         abbr,acronym { border: 0;
+         }
+ 
+ 
+         /* Custom CSS
+          * --------------------------------------- */
+
+         h1{
+             font-size: 6em;
+         }
+         h2{
+             font-size:4em;
+         }
+         p{
+             font-size: 2em;
+         }
+         .content{
+             position: relative;
+             transform: translateY(-50%);
+             text-align: center;
+             top:50%;
+         }
+ 
+         /* Section 1
+          * --------------------------------------- */
+         #section0{
+             background-image: url('../image/gray.jpg');
+             background-repeat: no-repeat;
+             background-size: cover;
+         }
+         #section0 h1{
+             color: #444;
+         }
+         #section0 p{
+             color: #333;
+             opacity: 0.4;
+         }
+ 
+ 
+         /* Section 2
+          * --------------------------------------- */
+         #section1{
+             background-color: #BDBDBD;
+         }
+         #section1 h1{
+            
+         }
+         #section1 p{
+             opacity: 0.8;
+         }
+ 
+ 
+         /* Section 3
+          * --------------------------------------- */
+         #section2{
+             background-color: #CEF6E3;
+         }
+         #section2 h1{
+             
+         }
+         #section2 p{
+             opacity: 0.6;
+         }
+         #section2 span{
+             font-weight: 100;
+         }
+ 
+         /* Section 4
+          * --------------------------------------- */
+          #section3{
+            background-color: #A9F5D0;
+        }
+        #section3 h1{
+            
+        }
+        #section3 p{
+            opacity: 0.6;
+        }
+         /* Section 4
+          * --------------------------------------- */
+          #section4{
+            background-color: #A9F5F2;
+        }
+        #section4 h1{
+            
+        }
+        #section4 p{
+            opacity: 0.6;
+        }

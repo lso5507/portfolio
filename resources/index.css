@@ -53,6 +53,9 @@
          h2{
              font-size:4em;
          }
+         h5{
+            font-size:20px
+         }
          p{
              font-size: 2em;
          }
@@ -95,22 +98,36 @@
          /* Section 3
           * --------------------------------------- */
          #section2{
-             background-color: #CEF6E3;
+            background-color: #A9E2F3
          }
          #section2 h1{
              
          }
-         #section2 p{
+         #section2 .contain p{
              opacity: 0.6;
          }
-         #section2 span{
+         #section2 .title span{
              font-weight: 100;
+             font-size:4em;
+             padding-top:40px;
+             margin-left:40px;
+             display:block;
+         }
+         #section2 .contain-text span{
+            font-size:40px;
+            text-align: left;
+            align-self: end;
+         }
+          #section2 .contain-text p{
+              font-size:20px;
+             
          }
  
          /* Section 4
           * --------------------------------------- */
           #section3{
-            background-color: #A9F5D0;
+            background-color: #CEF6E3;
+            
         }
         #section3 h1{
             
@@ -118,14 +135,43 @@
         #section3 p{
             opacity: 0.6;
         }
+        #section3 #slide3 .content{
+            display: flex;
+            flex-direction: column;
+        }
          /* Section 4
           * --------------------------------------- */
           #section4{
-            background-color: #A9F5F2;
+            background-color: #A9F5D0;
+            
         }
         #section4 h1{
             
         }
         #section4 p{
+            opacity: 0.6;
+        }
+         /* Section 5
+          * --------------------------------------- */
+          #section5{
+            
+            background-color: #A9F5F2;
+        }
+        #section5 h1{
+            
+        }
+        #section5 p{
+            opacity: 0.6;
+        }
+         /* Section 7
+          * --------------------------------------- */
+          #section6{
+            
+            background-color: #A9F5F2;
+        }
+        #section6 h1{
+            
+        }
+        #section6 p{
             opacity: 0.6;
         }

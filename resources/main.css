@@ -109,3 +109,19 @@ body{
     width:50vw;
     padding-left:20px;
 }
+
+.doorHeader{
+    display: flex;
+    flex-direction: column;
+    margin-right:50px;
+}
+.contentMain{
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}

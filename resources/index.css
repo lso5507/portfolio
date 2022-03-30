@@ -65,27 +65,59 @@
              text-align: center;
              top:50%;
          }
- 
+        /*
+        * Section 0
+        */
+        .section0_content{
+            display:flex;
+            flex-direction: column;
+        }
+        .section0_content p{
+            font-size: 30px;
+            opacity: 1;
+        }
+        #section0_icon{
+            opacity: 0.7;
+            width:100px;
+            height: auto;
+            align-self: center;
+        }
+        #section0{
+            background-image: url('../image/gray.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #section0 h1{
+            color: #444;
+        }
+        #section0 p{
+            color: #333;
+            
+        }
          /* Section 1
           * --------------------------------------- */
-         #section0{
-             background-image: url('../image/gray.jpg');
-             background-repeat: no-repeat;
-             background-size: cover;
-         }
-         #section0 h1{
-             color: #444;
-         }
-         #section0 p{
-             color: #333;
-             opacity: 0.4;
-         }
+        .section1_content{
+            display:flex;
+            flex-direction: row;
+
+        }
+        #section1_imagezone{
+            width:40vw;
+
+            text-align: right;
+        }
+        #section1_imagezone_list{
+            margin-right: 100px;
+        }
+        #section1_textzone{
+            width:60vw;
+        }
  
  
          /* Section 2
           * --------------------------------------- */
          #section1{
-             background-color: #BDBDBD;
+             /* background-color: #BDBDBD; */
          }
          #section1 h1{
             
@@ -98,7 +130,7 @@
          /* Section 3
           * --------------------------------------- */
          #section2{
-            background-color: #A9E2F3
+            /* background-color: #A9E2F3 */
          }
          #section2 h1{
              
@@ -126,7 +158,7 @@
          /* Section 4
           * --------------------------------------- */
           #section3{
-            background-color: #CEF6E3;
+            /* background-color: #CEF6E3; */
             
         }
         #section3 h1{
@@ -148,7 +180,7 @@
          /* Section 4
           * --------------------------------------- */
           #section4{
-            background-color: #A9F5D0;
+            /* background-color: #A9F5D0; */
             
         }
         #section4 h1{
@@ -161,7 +193,7 @@
           * --------------------------------------- */
           #section5{
             
-            background-color: #A9F5F2;
+            /* background-color: #A9F5F2; */
         }
         #section5 h1{
             
